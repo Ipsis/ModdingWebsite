@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -47,39 +46,21 @@
 		
 		<div class="container">
 			<div class="blog-header">
-				<h1 class="blog-title">Painter</h1>
-				<p class="lead blog-description">Coloring Blocks?!</p>
-			</div>
-			
-			<div class="row">
-				<div class="thumbnail">
-					<a href="http://imgur.com/DMVuCmi"><img src="http://i.imgur.com/DMVuCmi.png" title="Painter" /></a>
-				</div>
-			</div>
-			
-			<div class="row">
-				Drums, piping and engines are from <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k">Extra Utilities by RWTema.</a><br>
+				<h1 class="blog-title">Dye Chunks</h1>
 			</div>
 			
 			<div class="row">
 				<div class = "blog-main">					
 					<div class="blog-post">
-						<h2 class="blog-post-title">Introduction</h2>
-											
-						<p>The painter is one of the most important blocks in Dyetopia.</p>
-						<p>Basically it allows you to feed items in and get the colored version out. So for example you can put any color of wool in and select different colors out.</p>
+						<h2 class="blog-post-title">Introduction</h2>						
+						
+						<p>Dye chunks are really simple. There is one chunk for each possible dye color.</p>
+						<p>They are ore dictionaried to the vanilla dyes, so they can be used in appropriate recipes.</p>		
 					</div>
-					<div class="blog-post">
-						<h2 class="blog-post-title">Inputs And Output</h2>											
-						<p>Painters have the following inputs:</p>
-						<ul>
-							<li>RF Power</li>
-							<li>Pure Liquid Dye</li>
-						</ul>
-					</div>												
+					
 				</div> <!-- blog-main -->
-			</div> <!-- row -->			
-		</div> <!-- /.container -->
+			</div><!-- row -->			
+		</div> <!-- container -->
 		
 		<hr>
 		

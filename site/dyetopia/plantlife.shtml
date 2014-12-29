@@ -15,8 +15,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		
 		<!-- Custom styles for this template -->
-		<link href="blog.css" rel="stylesheet">
-		
+		<link href="blog.css" rel="stylesheet">		
 	</head>
 	
 	<body>
@@ -42,14 +41,14 @@
 					</ul>
 				</nav>
 			</div>
-		</header>
-		
+		</header>		
 		
 		<div class="container">
 			<div class="blog-header">
 				<h1 class="blog-title">Plantlife</h1>
 				<p class="lead blog-description">Trees, beans and pods.</p>
 			</div>
+			
 			<div class="row">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -70,42 +69,39 @@
 					</div>
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 					<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-				</div>		
-			</div>
+				</div>	<!-- Carousel -->	
+			</div> <!-- row -->
 			
 			<div class="row">
 				<div class = "blog-main">					
 					<div class="blog-post">
 						<h2 id="intro" class="blog-post-title">Introduction</h2>																	
-						<p>You can spend all your days, looking for flowers to squeeze the dye out of, or you can go down the Dyetopia plantlife route. This plantlife can give you dye faster then just flowers.However, these plants and trees do not exist in the world, you have to make them.</p>
-					</div>
+						<p>You can spend all your days, looking for flowers to squeeze the dye out of, or you can go down the Dyetopia plantlife route. This plantlife can give you dye faster then just flowers. However, these plants and trees do not exist in the world, you have to make them.</p>
+					</div> <!-- blog-post -->
 					<div class="blog-post">
-						<h2 id="dyemeal" class="blog-post-title">Dyemeal</h2>
-						
-						
-						<p>Dyetopia trees dont use growth ticks or bonemeal. You need some special bonemeal called dyemeal.</p>
-					</div>
+						<h2 id="dyemeal" class="blog-post-title">Dyemeal</h2>												
+						<p>Dyetopia trees dont use growth ticks or bonemeal. You need some special bonemeal called <a href="recipes.shtml#recipe_dyemeal">dyemeal</a>.</p>
+					</div> <!-- blog-post -->
 					<div class="blog-post">
-						<h2 id="rybtrees" class="blog-post-title">Red, Yellow and Blue Dye Trees</h2>											
-						
-						<p>These trees give you dye beans. You need to create the right sapling, plant it on the ground and then use dyemeal to make it grow. At the core of the tree you will find a dye heart. When you break this, you get dye beans which you can grow.</p>
-						<p>If you want more dye beans, grow more dye trees.</p>
-					</div>
+						<h2 id="rybtrees" class="blog-post-title">Red, Yellow and Blue Dye Trees</h2>																	
+						<p>These trees give you dye beans. You need to create the right sapling, plant it on the ground and then use dyemeal to make it grow.</p>
+						<p>At the core of the tree you will find a dye heart. When you break this, you get dye beans which you can grow.</p>
+						<p>If you want more dye beans, grow more dye trees!</p>
+					</div> <!-- blog-post -->
 					<div class="blog-post">
-						<h2 id="ptrees" class="blog-post-title">Pure Dye Trees</h2>
-						
+						<h2 id="ptrees" class="blog-post-title">Pure Dye Trees</h2>						
 						<p>This tree gives you Pure Dye Tree root, which is the only things that dye beans will grow on. Create the sapling, plant it on the ground and then use dyemeal to grow it.</p>
 						<p>These saplings need 5x5 area of dirt, that is 2 deep to grow.</p>
-					</div>	
+					</div> <!-- blog-post -->
 					<div class="blog-post">
 						<h2 id="beansandpods" class="blog-post-title">Dye Beans And Dye Pods</h2>
 						<p>Dye beans grow on Pure Dye Tree root. So plant some of that down, once you have hacked it from the tree and then plant your beans.</p>
 						<p>The beans grow like cocoa beans. When they are mature, break them to get the dye drops out.</p>
 						<p>And yes, you can use bonemeal on them.</p>												
-					</div>
-				</div> <!-- ./main -->
-			</div><!-- /.row -->			
-		</div> <!-- /.container -->
+					</div> <!-- blog-post -->
+				</div> <!-- blog-main -->
+			</div><!-- row -->			
+		</div> <!-- container -->
 		
 		<hr>
 		

@@ -74,9 +74,9 @@
 					</div>
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 					<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-				</div>		
+				</div> <!-- carousel -->	
 				Drums, piping and engines are from <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k">Extra Utilities by RWTema.</a><br>
-			</div>
+			</div> <!-- row -->
 			
 			<div class="row">
 				<div class = "blog-main">					
@@ -84,105 +84,105 @@
 						<h2 class="blog-post-title">Introduction</h2>									
 						
 						<p>The main liquid dyes are not much good, well to be honest any good, on their own. You need to stir them up to create some pure liquid dye. This is the magic stuff, that all the machines work on.</p>
-						<p>So all you need to do it pipe red, yellow, blue and white dye in and pure dye will come out.
+						<p>So all you need to do it pipe red, yellow, blue and white dye in and pure dye will come out.</p>
+					</div>
+					<div class="blog-post">
+						<h2 class="blog-post-title">Inputs And Output</h2>											
+						<p>Mixers have the following inputs:</p>
+						<ul>
+							<li>RF Power</li>
+							<li>Red Liquid Dye</li>
+							<li>Yellow Liquid Dye</li>
+							<li>Blue Liquid Dye</li>
+							<li>White Liquid Dye</li>
+						</ul>
+						<p>Mixers have the following outputs:</p>
+						<ul>
+							<li>Pure Liquid Dye</li>
+						</ul>
+					</div>
+					<div class="blog-post">
+						<h2 class="blog-post-title">Building</h2>
+						<p>The mixer is a 3x3x3 multiblock.</p>
+						<p>You need the following blocks:</p>
+						<ul>
+							<li>5 valves</li>
+							<li>1 controller</li>
+							<li>1 mixer</li>
+							<li>20 casings</li>
+						</ul>							
+						<div class="col-md-4">
+							<h2 id="tables-example">Bottom Layer</h2>
+							<table class="table table-condensed">						
+								<tbody>
+									<tr>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
+									</tr>
+									<tr>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+									</tr>
+									<tr>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
-						<div class="blog-post">
-							<h2 class="blog-post-title">Inputs And Output</h2>											
-							<p>Mixers have the following inputs:</p>
-							<ol>
-								<li>RF Power</li>
-								<li>Red Liquid Dye</li>
-								<li>Yellow Liquid Dye</li>
-								<li>Blue Liquid Dye</li>
-								<li>White Liquid Dye</li>
-							</ol>
-							<p>Mixers have the following outputs:</p>
-							<ol>
-								<li>Pure Liquid Dye</li>
-							</ol>
+						<div class="col-md-4">
+							<h2 id="tables-example">Middle Layer</h2>
+							<table class="table table-condensed">						
+								<tbody>
+									<tr>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+									</tr>
+									<tr>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_controller"><img src="http://i.imgur.com/ymr6EdG.png" title="Controller"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+									</tr>
+									<tr>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_mixer"><img src="http://i.imgur.com/udZ0PHm.png" title="Mixer"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
-						<div class="blog-post">
-							<h2 class="blog-post-title">Building</h2>
-							<p>The mixer is a 3x3x3 multiblock.</p>
-							<p>You need the following blocks:</p>
-							<ul>
-								<li>5 valves</li>
-								<li>1 controller</li>
-								<li>1 mixer</li>
-								<li>20 casings</li>
-							</ul>							
-							<div class="col-md-4">
-								<h2 id="tables-example">Bottom Layer</h2>
-								<table class="table table-condensed">						
-									<tbody>
-										<tr>
-											<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
-										</tr>
-										<tr>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-										</tr>
-										<tr>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<div class="col-md-4">
-								<h2 id="tables-example">Middle Layer</h2>
-								<table class="table table-condensed">						
-									<tbody>
-										<tr>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-										</tr>
-										<tr>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_controller"><img src="http://i.imgur.com/ymr6EdG.png" title="Controller"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-										</tr>
-										<tr>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_mixer"><img src="http://i.imgur.com/udZ0PHm.png" title="Mixer"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<div class="col-md-4">
-								<h2 id="tables-example">Top Layer</h2>
-								<table class="table table-condensed">						
-									<tbody>
-										<tr>
-											<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
-										</tr>
-										<tr>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-										</tr>
-										<tr>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-											<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							
+						<div class="col-md-4">
+							<h2 id="tables-example">Top Layer</h2>
+							<table class="table table-condensed">						
+								<tbody>
+									<tr>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
+									</tr>
+									<tr>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+									</tr>
+									<tr>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
+						
+					</div>
 					
-				</div> <!-- ./main -->
-			</div><!-- /.row -->			
-		</div> <!-- /.container -->
+				</div> <!-- blog-main -->
+			</div><!-- row -->			
+		</div> <!-- container -->
 		
 		<hr>
 		

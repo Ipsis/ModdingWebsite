@@ -91,15 +91,20 @@
 					<p><a class="btn btn-default" href="painting.shtml" role="button">View details &raquo;</a></p>
 				</div>		
 				<div class="col-md-4">
-					<h2>Configuration</h2>
-					<p>Changing the mod and adding new blocks.</p>
-					<p><a class="btn btn-default" href="configuration.shtml" role="button">View details &raquo;</a></p>
+					<h2>Dye Chunks</h2>
+					<p>Chunks of dye.</p>
+					<p><a class="btn btn-default" href="dyechunks.shtml" role="button">View details &raquo;</a></p>
 				</div>		
 				<div class="col-md-4">
 					<h2>Recipes</h2>
 					<p>Recipes for all the blocks.</p>
 					<p><a class="btn btn-default" href="recipes.shtml" role="button">View details &raquo;</a></p>
-				</div>					
+				</div>	
+				<div class="col-md-4">
+					<h2>Configuration</h2>
+					<p>Changing the mod and adding new blocks.</p>
+					<p><a class="btn btn-default" href="configuration.shtml" role="button">View details &raquo;</a></p>
+				</div>				
 			</div>
 			
 			<hr>

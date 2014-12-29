@@ -70,15 +70,14 @@
 					</div>
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 					<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-				</div>		
+				</div> <!-- carousel -->
 				Drums, piping and engines are from <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k">Extra Utilities by RWTema.</a><br>
-			</div>
+			</div> <!-- row -->
 			
 			<div class="row">
 				<div class = "blog-main">					
 					<div class="blog-post">
-						<h2 class="blog-post-title">Introduction</h2>								
-						
+						<h2 class="blog-post-title">Introduction</h2>														
 						<p>The squeezer does pretty much as you expect. It takes items, squeezes them and product red, yellow, blue and white dye.</p>
 						<p>The amount of each dye depends on which item you put in. You can also squeeze vanilla dyes.</p>
 						<p>More importantly you can squeeze dye drop which will produce larger amounts of the approriate dye colors.</p>
@@ -86,17 +85,17 @@
 					<div class="blog-post">
 						<h2 class="blog-post-title">Inputs And Output</h2>											
 						<p>Squeezers have the following inputs:</p>
-						<ol>
+						<ul>
 							<li>RF Power</li>
 							<li>Squeezable items</li>
-						</ol>
+						</ul>
 						<p>Squeezer have the following outputs:</p>
-						<ol>
+						<ul>
 							<li>Red Liquid Dye</li>
 							<li>Yellow Liquid Dye</li>
 							<li>Blue Liquid Dye</li>
 							<li>White Liquid Dye</li>
-						</ol>
+						</ul>
 					</div>
 					<div class="blog-post">
 						<h2 class="blog-post-title">Building</h2>
@@ -174,27 +173,24 @@
 								</tbody>
 							</table>
 						</div>
-					</div>
-					
-				</div>
-				
-			</div> <!-- ./main -->
-		</div><!-- /.row -->			
-	</div> <!-- /.container -->
-	
-	<hr>
-	
-	<footer>
-		<div class="container text-muted">
-			Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
-		</div>
-	</footer>
-	
-	<!-- Bootstrap core JavaScript
-	================================================= -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	
-</body>
+					</div>					
+				</div> <!-- blog-main -->
+			</div><!-- row -->	
+		</div> <!-- container -->
+		
+		<hr>
+		
+		<footer>
+			<div class="container text-muted">
+				Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
+			</div>
+		</footer>
+		
+		<!-- Bootstrap core JavaScript
+		================================================= -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+	</body>
 </html>

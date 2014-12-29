@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -57,36 +56,38 @@
 						<h2 class="blog-post-title">Introduction</h2>						
 						
 						<p>The dye gun is basically the portable painter. It is filled with pure dye, so you can use any color you want. Well any from the 16 Minecraft ones.</p>
+					</div>
 					
+					<div class="blog-post">
 						<h2 class="blog-post-title">Painting</h2>
 						<p>To change the current color, just shift-right-click and that will cycle the colors.</p>
 						<p>To apply, just right-click an appropriate block.</p>
-						
+					</div>
+					
+					<div class="blog-post">
 						<h2 class="blog-post-title">Erasing</h2>
 						<p>The eraser is for those special blocks, that have an uncolored version, such as hardended clay and stained clay.</p>
 						<p>To remove the color, just right-click on a block and the color will be removed.</p>						
-						
-					</div>											
-				</div>
+					</div>
+					
+					
+				</div> <!-- blog-main -->
+			</div><!-- row -->			
+		</div> <!-- container -->
+		
+		<hr>
+		
+		<footer>
+			<div class="container text-muted">
+				Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
 			</div>
-			
-		</div> <!-- ./main -->
-	</div><!-- /.row -->			
-</div> <!-- /.container -->
-
-<hr>
-
-<footer>
-	<div class="container text-muted">
-		Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
-	</div>
-</footer>
-
-<!-- Bootstrap core JavaScript
-================================================= -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-</body>
+		</footer>
+		
+		<!-- Bootstrap core JavaScript
+		================================================= -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+	</body>
 </html>

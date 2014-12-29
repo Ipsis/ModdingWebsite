@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Ipsis">
+		<link rel="icon" href="../../favicon.ico">
+		
+		<title>Dyetopia</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
+		<!-- Custom styles for this template -->
+		<link href="blog.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		
+		<!-- Docs master nav -->
+		<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="../index.shtml" class="navbar-brand">Home</a>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="index.shtml">Dyetopia</a></li>
+						<li><a href="https://github.com/Ipsis/Dyetopia/issues">Issues</a></li>
+						<li><a href="changelog.shtml">Changelog</a></li>
+						<li><a href="links.shtml">Links And Downloads</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		
+		<div class="container">
+			<div class="blog-header">
+				<h1 class="blog-title">Configuration</h1>
+				<p class="lead blog-description">Configuring The Mod</p>
+			</div>
+			
+			<div class="row">
+				<div class = "blog-main">					
+					<div class="blog-post">
+						<h2 class="blog-post-title">Introduction</h2>		
+						
+						<p>Painting and erasing of blocks is supported for all the vanilla blocks, like glass, carpets, wool etc.</p>
+						<p>However mods are also supported in two ways. The first way is direct support in this mod. The second is supported by a user configuration file.</p>
+						<p>In the configuration file there are two main objects. An origin an a block.</p>
+						<p>A block is the name of a Minecraft object that can have multiple different colors. eg. minecraft:stained_hardened_clay or ExtraUtilities:colorStoneBrick.</p>
+						<p>An origin is a block that is not colored, but can have dye applied to it to change it into a colored block. eg. minecraft:hardened_clay.</p>
+						<p>There is one main rule. Only color information stored as metadata is suppport, not TileEntities or BlockContainers.
+					</div>					
+					<div class="blog-post">
+						<h2 class="blog-post-title">Direct Support</h2>
+						<p>Some mods are already supported directly by this mod. You can see them by visiting the GitHub page and looking at <a href="https://github.com/Ipsis/Dyetopia/blob/master/src/main/resources/assets/dyetopia/dyetopia_modded.json">dyetopia_modded.json</a>.</p>
+					</div>
+					<div class="blog-post">
+						<h2 class="blog-post-title">User Added Support</h2>
+						<p>There is a json configuration file that is created when the mod starts called dyetopia_custommaps.json. Here you can do the following:</p>
+						<ul>
+							<li>Blacklist mods</li>
+							<li>Blacklist blocks</li>
+							<li>Create custom block mappings</li>
+						</ul>
+						<p>The default file looks like this:</p>				
+<pre><code>{
+    "blacklist": {
+        "mods": [ ],
+        "blocks": [ ]
+    },
+    "mods": []
+}</code></pre>
+						<p>Do blacklist a complete mod add the modid to the mods list.</p>
+						<p>Do blacklist a block add it to the blocks list. Blacklisting a block will apply it to all instances of that block regardless of metadata.</p>
+						<p>To blacklist Thermal Expansion and Railcraft support, plus blacklist the vanilla glass block.</p>
+<pre><code>{
+    "blacklist": {
+        "mods": [ "ThermalExpansion", "Railcraft" ],
+        "blocks": [ "minecraft:glass" ]
+    },
+    "mods": []
+}</code></pre>					
+						<p>To add a new mapping you add a new entry to the mods array.</p>
+<pre><code>{
+    "blacklist": {
+        "mods": [ ],
+        "blocks": [ ]
+    },
+    "mods": [
+			{
+				"refname": "Colored Glowstone",
+				"assoc": true,
+				"blockname": "ExtraUtilities:color_lightgem",
+				"vanilla": {}
+			},
+			{
+				"refname": "Metal Post",
+				"assoc": true,
+				"origin": {
+				"name": "Railcraft:tile.railcraft.post",
+				"meta": 2
+				},
+				"blockname": "Railcraft:tile.railcraft.post.metal",
+				"simple": { }
+			}			
+	]
+}</code></pre>
+						<p>In this example we are adding the Extra Utilities glowstone lights and the Railcraft metal posts.</p>		
+						<p>The field are:</p>
+						<ul>
+							<li>Refname - just a handy name to keep track of what you are adding.</li>
+							<li>Assoc - true if each colored block can be changed to any other color. Normally you want this to be true.</li>
+							<li>Origin[Optional] - the name and metadata of the origin block that turns into the colored block.</li>
+							<li>Blockname - the name of the colored block, that will be changing color.</li>
+							<li>Vanilla/Simple - the map of metadata values to color. Vanilla: metadata 0 is white, 15 is black. Simple: metadata 0 is black, 15 is white. Most things are vanilla maps.</li>
+						</ul>
+						<p>If you add a mapping and want to share, then you can always create a pull request on Github with the changes put in <a href="https://github.com/Ipsis/Dyetopia/blob/master/src/main/resources/assets/dyetopia/dyetopia_modded.json">dyetopia_modded.json</a></p>
+					</div>
+				</div> <!-- ./main -->
+			</div><!-- /.row -->			
+		</div> <!-- /.container -->
+		
+		<hr>
+		
+		<footer>
+			<div class="container text-muted">
+				Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
+			</div>
+		</footer>
+		
+		<!-- Bootstrap core JavaScript
+		================================================= -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

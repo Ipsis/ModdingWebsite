@@ -43,12 +43,11 @@
 				</nav>
 			</div>
 		</header>
-		
-		
+				
 		<div class="container">
 			<div class="blog-header">
 				<h1 class="blog-title">Stamper</h1>
-				<p class="lead blog-description">And Dye Your Heart Desires</p>
+				<p class="lead blog-description">And Dye Your Heart Desires (As long as its one of the Minecraft 16!)</p>
 			</div>
 			
 			<div class="row">
@@ -67,10 +66,9 @@
 					</div>
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 					<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-				</div>		
+				</div> <!-- carousel -->	
 				Drums, piping and engines are from <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k">Extra Utilities by RWTema.</a><br>
 			</div>
-			
 			
 			<div class="row">
 				<div class = "blog-main">					
@@ -84,40 +82,26 @@
 					<div class="blog-post">
 						<h2 class="blog-post-title">Inputs And Output</h2>											
 						<p>Stampers have the following inputs:</p>
-						<ol>
+						<ul>
 							<li>RF Power</li>
 							<li>Pure Liquid Dye</li>
-							<li>Dye Blanks</li>
-						</ol>
+							<li><a href="recipes.shtml#recipe_dyeblanks">Dye Blanks</a></li>
+						</ul>
 						<p>Stampers have the following outputs:</p>
-						<ol>
+						<ul>
 							<li>Dye Chunks</li>
-						</ol>
-					</div>												
-				</div>
+						</ul>
+					</div>															
+				</div> <!-- blog-main -->
+			</div><!-- row -->			
+		</div> <!-- container -->
+		
+		<hr>
+		
+		<footer>
+			<div class="container text-muted">
+				Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
 			</div>
-			<div class="blog-post">
-				<h2 id="ptrees" class="blog-post-title">Dye Blanks</h2>
-				
-				<div class="row">
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<a href="http://imgur.com/c7jnYcp"><img src="http://i.imgur.com/c7jnYcp.png" title="source: imgur.com" /></a>
-						</div>
-					</div>
-				</div>	
-			</div>	
-			
-		</div> <!-- ./main -->
-	</div><!-- /.row -->			
-</div> <!-- /.container -->
-
-<hr>
-
-<footer>
-	<div class="container text-muted">
-		Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
-	</div>
 </footer>
 
 <!-- Bootstrap core JavaScript

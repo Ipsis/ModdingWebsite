@@ -1,0 +1,64 @@
+[img]http://media-elerium.cursecdn.com/attachments/17/410/logo.png[/img]
+
+[b][b]What Is It???[/b][/b]
+I hate finding and combining dyes, so this is my answer.
+Squeeze all those flowers into liquid dyes and store them for future use.
+
+So the basic steps are:
+* Build yourself a squeezer and mixer to turn all your flowers and dye drops into pure dye
+* Use the pure dye to
+** Stamp out new dyes
+** Mass produce painted blocks
+** Fill up your dye gun
+
+You can squeeze anything (hopefully) that can be manually crafted into a dye.
+
+[b][b]Disclaimer[/b][/b]
+It says beta for a reason.
+This is a work in progress mod and can (will?) crash.
+For one it has multiblock structures and we know how fun they are.
+Testing has been limited to using it with the latest FTB DireWorlf20 pack in single player.
+
+[b][b]Download[/b][/b]
+http://minecraft.curseforge.com/mc-mods/226037-dyetopia/files
+[mod="1.7.10"]226037-dyetopia[/mod]
+
+[b][b]Dependencies[/b][/b]
+This mod depends on CoFHLib.
+[url=http://minecraft.curseforge.com/mc-mods/220333-cofhlib/files]CoFHLib Download Page[/url]
+
+[b][b]Recipes, Instruction Etc[/b][/b]
+All the information on blocks, recipes and how to use/configure the mod is on my website.
+[url=http://www.zen121381.zen.co.uk/dyetopia/index.shtml]Dyetopia Website[/url]
+
+[b][b]Changelog[/b][/b]
+1.7.10-1.0.0B2
+
+Fixes
+* BGZ001 - Fixed Crash on breaking a dye heart. Now gives 1-3 dye beans.
+* BGZ002 - Fixed Painter, Squeezer and Filler dont check for pure dye.
+* BGZ003 - Fixed Painter is not creating the correct output block colors.
+
+1.7.10-1.0.0B1
+
+* Initial release
+
+[b][b]Source And Issues[/b][/b]
+[url=https://github.com/Ipsis/Dyetopia/issues]Issue Tracker[/url]
+[url=https://github.com/Ipsis/Dyetopia]GitHub Project[/url]
+
+
+[b][b]Licensing And Modpacks[/b][/b]
+* This mod is released under LGPLv3.
+* Feel free to add this to a mod pack.
+** You do not have to ask.
+** A message in the thread would be nice just to give me a warm feeling. (But not needed)
+
+[b][b]Credits[/b][/b]
+* All the people with Open Source code that I can poke about in :)
+* Vswe for his modding tutorial series, that basically got me started.
+
+[b][b]ScreenShots[/b][/b]
+[img]http://media-elerium.cursecdn.com/attachments/17/407/machines.png[/img]
+[img]http://media-elerium.cursecdn.com/attachments/17/408/liquid-dyes.png[/img]
+[img]http://media-elerium.cursecdn.com/attachments/17/411/trees.png[/img]

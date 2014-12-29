@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Ipsis">
+		<link rel="icon" href="../../favicon.ico">
+		
+		<title>Dyetopia</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
+		<!-- Custom styles for this template -->
+		<link href="blog.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		
+		<!-- Docs master nav -->
+		<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="../index.shtml" class="navbar-brand">Home</a>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="index.shtml">Dyetopia</a></li>
+						<li><a href="https://github.com/Ipsis/Dyetopia/issues">Issues</a></li>
+						<li><a href="changelog.shtml">Changelog</a></li>
+						<li><a href="links.shtml">Links And Downloads</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		
+		<div class="container">
+			<div class="blog-header">
+				<h1 class="blog-title">Squeezer</h1>
+				<p class="lead blog-description">Flowers In, Dye Out</p>
+			</div>
+			<div class="row">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="http://i.imgur.com/nrLytkO.png" class="img-responsive center-block" alt="Squeezer Front">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/AaLCiuq.png" class="img-responsive center-block" alt="Squeezer Back">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/rcJsfeH.png" class="img-responsive center-block" alt="Squeezer Running">
+						</div>											
+					</div>
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>		
+				Drums, piping and engines are from <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k">Extra Utilities by RWTema.</a><br>
+			</div>
+			
+			<div class="row">
+				<div class = "blog-main">					
+					<div class="blog-post">
+						<h2 class="blog-post-title">Introduction</h2>		
+						
+						<div class="row">
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<a href="http://imgur.com/V3bLzOq"><img src="http://i.imgur.com/V3bLzOq.png" title="source: imgur.com" /></a>
+								</div>
+							</div>
+						</div>	
+						
+						<p>The squeezer does pretty much as you expect. It takes items, squeezes them and product red, yellow, blue and white dye.</p>
+						<p>The amount of each dye depends on which item you put in. You can also squeeze vanilla dyes.</p>
+						<p>More importantly you can squeeze dye drop which will produce larger amounts of the approriate dye colors.</p>
+					</div>
+					<div class="blog-post">
+						<h2 class="blog-post-title">Inputs And Output</h2>											
+						<p>Squeezers have the following inputs:</p>
+						<ol>
+							<li>RF Power</li>
+							<li>Squeezable items</li>
+						</ol>
+						<p>Squeezer have the following outputs:</p>
+						<ol>
+							<li>Red Liquid Dye</li>
+							<li>Yellow Liquid Dye</li>
+							<li>Blue Liquid Dye</li>
+							<li>White Liquid Dye</li>
+						</ol>
+					</div>
+					<div class="blog-post">
+						<h2 class="blog-post-title">Building</h2>
+						<p>The squeezer is a 3x3x3 multiblock.</p>
+						<p>You need the following blocks:</p>
+						<ul>
+							<li>4 valves</li>
+							<li>1 controller</li>
+							<li>1 squeezer</li>
+							<li>21 casings</li>
+						</ul>
+						<div class="col-md-4">
+							<h2 id="tables-example">Bottom Layer</h2>
+							<table class="table table-condensed">						
+								<tbody>
+									<tr>
+										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
+									</tr>
+									<tr>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+									</tr>
+									<tr>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-md-4">
+							<h2 id="tables-example">Middle Layer</h2>
+							<table class="table table-condensed">						
+								<tbody>
+									<tr>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+									</tr>
+									<tr>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/ymr6EdG.png" title="Controller"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+									</tr>
+									<tr>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/udZ0PHm.png" title="Squeezer"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-md-4">
+							<h2 id="tables-example">Top Layer</h2>
+							<table class="table table-condensed">						
+								<tbody>
+									<tr>
+										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
+									</tr>
+									<tr>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+									</tr>
+									<tr>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div> <!-- ./main -->
+		</div><!-- /.row -->			
+	</div> <!-- /.container -->
+	
+	<hr>
+	
+	<footer>
+		<div class="container text-muted">
+			Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
+		</div>
+	</footer>
+	
+	<!-- Bootstrap core JavaScript
+	================================================= -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+</body>
+</html>

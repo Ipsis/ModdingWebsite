@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Ipsis">
+		<link rel="icon" href="../../favicon.ico">
+		
+		<title>Dyetopia</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
+		<!-- Custom styles for this template -->
+		<link href="jumbotron.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		
+		<!-- Docs master nav -->
+		<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="../index.shtml" class="navbar-brand">Home</a>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="index.shtml">Dyetopia</a></li>
+						<li><a href="https://github.com/Ipsis/Dyetopia/issues">Issues</a></li>
+						<li><a href="changelog.shtml">Changelog</a></li>
+						<li><a href="links.shtml">Links And Downloads</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Links And Downloads</h1>	
+			</div>
+		</div>
+		
+		<div class="container">
+		
+		<iframe src="http://widget.mcf.li/mc-mods/minecraft/226037-dyetopia" width="100%" style="border: none;"></iframe>
+		
+		<a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2262586-dyetopia-fraking-flowers-v1-0-0-b2">Minecraft Forum Thread</a><br>
+		<a href="http://minecraft.curseforge.com/mc-mods/226037-dyetopia/files">Curseforge Download Page</a><br>
+		<a href="https://github.com/Ipsis/Dyetopia">GitHub Source</a><br>
+			
+		</div> <!-- /container -->		
+		<hr>
+		<footer>
+			<div class="container text-muted">
+				Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
+			</div>
+		</footer>
+		
+		<!-- Bootstrap core JavaScript
+		================================================= -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

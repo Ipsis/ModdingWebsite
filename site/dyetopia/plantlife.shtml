@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Ipsis">
+		<link rel="icon" href="../../favicon.ico">
+		
+		<title>Dyetopia</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
+		<!-- Custom styles for this template -->
+		<link href="blog.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		
+		<!-- Docs master nav -->
+		<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="../index.shtml" class="navbar-brand">Home</a>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="index.shtml">Dyetopia</a></li>
+						<li><a href="https://github.com/Ipsis/Dyetopia/issues">Issues</a></li>
+						<li><a href="changelog.shtml">Changelog</a></li>
+						<li><a href="links.shtml">Links And Downloads</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		
+		<div class="container">
+			<div class="blog-header">
+				<h1 class="blog-title">Plantlife</h1>
+				<p class="lead blog-description">Trees, beans and pods.</p>
+			</div>
+			<div class="row">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="http://i.imgur.com/CiaC8rH.png" class="img-responsive center-block" alt="Red, Yellow and Blue Tree Dye Trees">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/ld9OBmD.png" class="img-responsive center-block" alt="Pure Dye Trees">
+						</div>
+						<div class="item">
+							<img src="http://i.imgur.com/qNMoJVi.png" class="img-responsive center-block" alt="Dye Pods">
+						</div>											
+					</div>
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>		
+			</div>
+			
+			<div class="row">
+				<div class = "blog-main">					
+					<div class="blog-post">
+						<h2 id="intro" class="blog-post-title">Introduction</h2>																	
+						<p>You can spend all your days, looking for flowers to squeeze the dye out of, or you can go down the Dyetopia plantlife route. This plantlife can give you dye faster then just flowers.However, these plants and trees do not exist in the world, you have to make them.</p>
+					</div>
+					<div class="blog-post">
+						<h2 id="dyemeal" class="blog-post-title">Dyemeal</h2>
+						
+						<div class="row">
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<a href="http://imgur.com/rI9Se7Z"><img src="http://i.imgur.com/rI9Se7Z.png" title="source: imgur.com" /></a>
+								</div>
+							</div>
+						</div>	
+						
+						<p>Dyetopia trees dont use growth ticks or bonemeal. You need some special bonemeal called dyemeal.</p>
+					</div>
+					<div class="blog-post">
+						<h2 id="rybtrees" class="blog-post-title">Red, Yellow and Blue Dye Trees</h2>
+						
+						<div class="row">
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<a href="http://imgur.com/9N4JfiG"><img src="http://i.imgur.com/9N4JfiG.png" title="source: imgur.com" /></a>
+									<div class="caption">
+										<h3>Red Dye Tree</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<a href="http://imgur.com/KNoXtKO"><img src="http://i.imgur.com/KNoXtKO.png" title="source: imgur.com" /></a>
+									<div class="caption">
+										<h3>Yellow Dye Tree</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<a href="http://imgur.com/Uj1bkqh"><img src="http://i.imgur.com/Uj1bkqh.png" title="source: imgur.com" /></a>
+									<div class="caption">
+										<h3>Blue Dye Tree</h3>
+									</div>
+								</div>
+							</div>
+						</div>						
+						
+						<p>These trees give you dye beans. You need to create the right sapling, plant it on the ground and then use dyemeal to make it grow. At the core of the tree you will find a dye heart. When you break this, you get dye beans which you can grow.</p>
+						<p>If you want more dye beans, grow more dye trees.</p>
+					</div>
+					<div class="blog-post">
+						<h2 id="ptrees" class="blog-post-title">Pure Dye Trees</h2>
+						
+						<div class="row">
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<a href="http://imgur.com/Y5DV2os"><img src="http://i.imgur.com/Y5DV2os.png" title="source: imgur.com" /></a>
+								</div>
+							</div>
+						</div>	
+						
+						<p>This tree gives you Pure Dye Tree root, which is the only things that dye beans will grow on. Create the sapling, plant it on the ground and then use dyemeal to grow it.</p>
+						<p>These saplings need 5x5 area of dirt, that is 2 deep to grow.</p>
+					</div>	
+					<div class="blog-post">
+						<h2 id="beansandpods" class="blog-post-title">Dye Beans And Dye Pods</h2>
+						<p>Dye beans grow on Pure Dye Tree root. So plant some of that down, once you have hacked it from the tree and then plant your beans.</p>
+						<p>The beans grow like cocoa beans. When they are mature, break them to get the dye drops out.</p>
+						<p>And yes, you can use bonemeal on them.</p>												
+					</div>
+				</div> <!-- ./main -->
+			</div><!-- /.row -->			
+		</div> <!-- /.container -->
+		
+		<hr>
+		
+		<footer>
+			<div class="container text-muted">
+				Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
+			</div>
+		</footer>
+		
+		<!-- Bootstrap core JavaScript
+		================================================= -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

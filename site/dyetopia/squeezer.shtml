@@ -77,15 +77,7 @@
 			<div class="row">
 				<div class = "blog-main">					
 					<div class="blog-post">
-						<h2 class="blog-post-title">Introduction</h2>		
-						
-						<div class="row">
-							<div class="col-md-3">
-								<div class="thumbnail">
-									<a href="http://imgur.com/V3bLzOq"><img src="http://i.imgur.com/V3bLzOq.png" title="source: imgur.com" /></a>
-								</div>
-							</div>
-						</div>	
+						<h2 class="blog-post-title">Introduction</h2>								
 						
 						<p>The squeezer does pretty much as you expect. It takes items, squeezes them and product red, yellow, blue and white dye.</p>
 						<p>The amount of each dye depends on which item you put in. You can also squeeze vanilla dyes.</p>
@@ -121,19 +113,19 @@
 							<table class="table table-condensed">						
 								<tbody>
 									<tr>
-										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
 									</tr>
 									<tr>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 									</tr>
 									<tr>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -143,19 +135,19 @@
 							<table class="table table-condensed">						
 								<tbody>
 									<tr>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 									</tr>
 									<tr>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 										<td><img src="http://i.imgur.com/ymr6EdG.png" title="Controller"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 									</tr>
 									<tr>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 										<td><img src="http://i.imgur.com/udZ0PHm.png" title="Squeezer"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -165,19 +157,19 @@
 							<table class="table table-condensed">						
 								<tbody>
 									<tr>
-										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></td>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_valve"><img src="http://i.imgur.com/ATjRexX.png" title="Valve"/></a></td>
 									</tr>
 									<tr>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 									</tr>
 									<tr>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
-										<td><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
+										<td><a href="recipes.shtml#recipe_casing"><img src="http://i.imgur.com/Q735oSV.png" title="Casing"/></a></td>
 									</tr>
 								</tbody>
 							</table>

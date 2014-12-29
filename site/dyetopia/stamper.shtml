@@ -75,15 +75,7 @@
 			<div class="row">
 				<div class = "blog-main">					
 					<div class="blog-post">
-						<h2 class="blog-post-title">Introduction</h2>
-						
-						<div class="row">
-							<div class="col-md-3">
-								<div class="thumbnail">
-									<a href="http://imgur.com/8ZZFv6K"><img src="http://i.imgur.com/8ZZFv6K.png" title="source: imgur.com" /></a>
-								</div>
-							</div>
-						</div>	
+						<h2 class="blog-post-title">Introduction</h2>						
 						
 						<p>The stamper has a simple purpose. Stamp out the dye that you want.</p>
 						<p>You need to feed dye blanks into the input slot of the machine and select which color of dye you want out.</p>

@@ -47,42 +47,26 @@
 		
 		<div class="container">
 			<div class="blog-header">
-				<h1 class="blog-title">Painter</h1>
-				<p class="lead blog-description">Coloring Blocks?!</p>
-			</div>
-			
-			<div class="row">
-				<div class="thumbnail">
-					<a href="http://imgur.com/DMVuCmi"><img src="http://i.imgur.com/DMVuCmi.png" title="source: imgur.com" /></a>
-				</div>
-			</div>
-			
-			<div class="row">
-				Drums, piping and engines are from <a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k">Extra Utilities by RWTema.</a><br>
+				<h1 class="blog-title">Gun And Eraser</h1>
+				<p class="lead blog-description">How to paint and how to cleanup afterwards</p>
 			</div>
 			
 			<div class="row">
 				<div class = "blog-main">					
 					<div class="blog-post">
-						<h2 class="blog-post-title">Introduction</h2>
+						<h2 class="blog-post-title">Introduction</h2>						
 						
+						<p>The dye gun is basically the portable painter. It is filled with pure dye, so you can use any color you want. Well any from the 16 Minecraft ones.</p>
+					
+						<h2 class="blog-post-title">Painting</h2>
+						<p>To change the current color, just shift-right-click and that will cycle the colors.</p>
+						<p>To apply, just right-click an appropriate block.</p>
 						
-						<p>The painter is one of the most important blocks in Dyetopia.</p>
-						<p>Basically it allows you to feed items in and get the colored version out. So for example you can put any color of wool in and select different colors out.</p>
-						<p>Currently it only works with the following vanilla inputs:</p>
-					</div>
-					<div class="blog-post">
-						<h2 class="blog-post-title">Inputs And Output</h2>											
-						<p>Painters have the following inputs:</p>
-						<ol>
-							<li>RF Power</li>
-							<li>Pure Liquid Dye</li>
-						</ol>
-						<p>Painters have the following outputs:</p>
-						<ol>
-							<li>Dye Chunks</li>
-						</ol>
-					</div>												
+						<h2 class="blog-post-title">Erasing</h2>
+						<p>The eraser is for those special blocks, that have an uncolored version, such as hardended clay and stained clay.</p>
+						<p>To remove the color, just right-click on a block and the color will be removed.</p>						
+						
+					</div>											
 				</div>
 			</div>
 			

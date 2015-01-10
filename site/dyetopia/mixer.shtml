@@ -67,7 +67,7 @@
 						</div>
 						<div class="item">
 							<img src="http://i.imgur.com/ECnkA4B.png" class="img-responsive center-block" alt="Mixer Running">
-						</div>			
+							</div>			
 						<div class="item">
 							<img src="http://i.imgur.com/0vWzbM7.png" class="img-responsive center-block" alt="Mixer Running">
 						</div>		
@@ -191,6 +191,17 @@
 				Page powered by <a href="http://getbootstrap.com/">Bootstrap.</a><br>
 			</div>
 		</footer>
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-58206269-1', 'auto');
+			ga('send', 'pageview');
+			
+		</script>			
 		
 		<!-- Bootstrap core JavaScript
 		================================================= -->

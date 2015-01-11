@@ -65,7 +65,7 @@
 					</div>					
 					<div class="blog-post">
 						<h2 class="blog-post-title">Direct Support</h2>
-						<p>Some mods are already supported directly by this mod. You can see them by visiting the GitHub page and looking at <a href="https://github.com/Ipsis/Dyetopia/blob/master/src/main/resources/assets/dyetopia/dyetopia_modded.json">dyetopia_modded.json</a>.</p>
+						<p>Some mods are already supported directly by this mod. You can see them by visiting the GitHub page and looking at <a href="https://github.com/Ipsis/Dyetopia/blob/master/src/main/resources/assets/dyetopia/json">json directory</a>.</p>
 					</div>
 					<div class="blog-post">
 						<h2 class="blog-post-title">User Added Support</h2>
@@ -83,8 +83,8 @@
     },
     "mods": []
 }</code></pre>
-						<p>Do blacklist a complete mod add the modid to the mods list.</p>
-						<p>Do blacklist a block add it to the blocks list. Blacklisting a block will apply it to all instances of that block regardless of metadata.</p>
+						<p>To blacklist a complete mod add the modid to the mods list.</p>
+						<p>To blacklist a block add it to the blocks list. Blacklisting a block will apply it to all instances of that block regardless of metadata.</p>
 						<p>To blacklist Thermal Expansion and Railcraft support, plus blacklist the vanilla glass block.</p>
 <pre><code>{
     "blacklist": {
@@ -100,34 +100,47 @@
         "blocks": [ ]
     },
     "mods": [
-			{
-				"refname": "Colored Glowstone",
-				"assoc": true,
-				"blockname": "ExtraUtilities:color_lightgem",
-				"vanilla": {}
-			},
-			{
-				"refname": "Metal Post",
-				"assoc": true,
-				"origin": {
-				"name": "Railcraft:tile.railcraft.post",
-				"meta": 2
-				},
-				"blockname": "Railcraft:tile.railcraft.post.metal",
-				"simple": { }
-			}			
-	]
+        {
+            "id": "ExtraUtilities",
+            "maps": [
+                {
+                    "refname": "Colored Glowstone",
+                    "assoc": true,
+                    "blockname": "ExtraUtilities:color_lightgem",
+                    "vanilla": {}
+                },
+            ]
+        },
+        {
+            "id": "Railcraft",
+            "maps": [
+                {
+                    "refname": "Metal Post",
+                    "assoc": true,
+                    "origin": {
+                        "name": "Railcraft:tile.railcraft.post",
+                        "meta": 2
+                    },
+                    "blockname": "Railcraft:tile.railcraft.post.metal",
+                    "simple": { }
+                }
+            ]
+        }			
+    ]
 }</code></pre>
 						<p>In this example we are adding the Extra Utilities glowstone lights and the Railcraft metal posts.</p>		
 						<p>The field are:</p>
 						<ul>
+                            <li>Id - the mod id. If the mod isn't loaded your configuration is ignored.</li>
 							<li>Refname - just a handy name to keep track of what you are adding.</li>
 							<li>Assoc - true if each colored block can be changed to any other color. Normally you want this to be true.</li>
 							<li>Origin[Optional] - the name and metadata of the origin block that turns into the colored block.</li>
 							<li>Blockname - the name of the colored block, that will be changing color.</li>
 							<li>Vanilla/Simple - the map of metadata values to color. Vanilla: metadata 0 is white, 15 is black. Simple: metadata 0 is black, 15 is white. Most things are vanilla maps.</li>
 						</ul>
-						<p>If you add a mapping and want to share, then you can always create a pull request on Github with the changes put in <a href="https://github.com/Ipsis/Dyetopia/blob/master/src/main/resources/assets/dyetopia/dyetopia_modded.json">dyetopia_modded.json</a></p>
+                        <hr>
+                        <b>GitHub Pull Requests</b>
+						<p>If you add a mapping and want to share, then you can always create a pull request on Github with the changes put in <a href="https://github.com/Ipsis/Dyetopia/blob/master/src/main/resources/assets/dyetopia/json">json directory</a>. You will also have to update <a href="https://github.com/Ipsis/Dyetopia/blob/master/src/main/java/ipsis/dyetopia/reference/Config.java">Config.java</a> to have that file loaded.</p>
 					</div>
 				</div> <!-- ./main -->
 			</div><!-- /.row -->			

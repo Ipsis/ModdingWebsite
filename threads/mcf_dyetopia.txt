@@ -3,15 +3,30 @@
 [b][b]What Is It???[/b][/b]
 I hate finding and combining dyes, so this is my answer.
 Squeeze all those flowers into liquid dyes and store them for future use.
+Then you can fill up your dye gun and start painting world blocks.
+Eg. Have a wall made of one color of wool or stained clay? Just get the dye gun out and start dying the wool/clay.
 
 So the basic steps are:
 * Build yourself a squeezer and mixer to turn all your flowers and dye drops into pure dye
 * Use the pure dye to
 ** Stamp out new dyes
 ** Mass produce painted blocks
-** Fill up your dye gun
+** Fill up your dye gun and start painting.
 
-You can squeeze anything (hopefully) that can be manually crafted into a dye.
+You can squeeze anything that can be shapeless crafted into a dye.
+
+You can paint both vanilla and modded blocks.
+Modded blocks can be configured via a json file.
+See [url=http://www.zen121381.zen.co.uk/dyetopia/configuration.shtml]Json Configuration[/url] for more details.
+
+[b][b]Mod Support[/b][/b]
+Currently the following mods are fully or partially supported by default:
+[url=https://github.com/Ipsis/Dyetopia/tree/master/src/main/resources/assets/dyetopia/json]Supported Mods[/url]
+
+[b][b]Technical Bit[/b][/b]
+This mod uses the fact that a lot of colored world blocks use the metadata value to deterime the color.
+Not all mods uses this method. So we are restricted to only allow blocks to be painted where their metadata value is used.
+There json config file will allow you to swap block and metadata for each color, so can handle Chisel.
 
 [b][b]Disclaimer[/b][/b]
 It says beta for a reason.
@@ -32,16 +47,7 @@ All the information on blocks, recipes and how to use/configure the mod is on my
 [url=http://www.zen121381.zen.co.uk/dyetopia/index.shtml]Dyetopia Website[/url]
 
 [b][b]Changelog[/b][/b]
-1.7.10-1.0.0B2
-
-Fixes
-* BGZ001 - Fixed Crash on breaking a dye heart. Now gives 1-3 dye beans.
-* BGZ002 - Fixed Painter, Squeezer and Filler dont check for pure dye.
-* BGZ003 - Fixed Painter is not creating the correct output block colors.
-
-1.7.10-1.0.0B1
-
-* Initial release
+[url=http://www.zen121381.zen.co.uk/dyetopia/changelog.shtml]Dyetopia Changelog[/url]
 
 [b][b]Source And Issues[/b][/b]
 [url=https://github.com/Ipsis/Dyetopia/issues]Issue Tracker[/url]

@@ -80,7 +80,8 @@
 						<h2 class="blog-post-title">Introduction</h2>														
 						<p>The squeezer does pretty much as you expect. It takes items, squeezes them and product red, yellow, blue and white dye.</p>
 						<p>The amount of each dye depends on which item you put in. You can also squeeze vanilla dyes.</p>
-						<p>More importantly you can squeeze dye drop which will produce larger amounts of the approriate dye colors.</p>
+						<p>More importantly you can squeeze dye drops which will produce larger amounts of the approriate dye colors.</p>
+                        <p>The items that can be squeezed depend on which mods you have installed.</p>
 					</div>
 					<div class="blog-post">
 						<h2 class="blog-post-title">Inputs And Output</h2>											

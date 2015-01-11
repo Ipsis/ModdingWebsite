@@ -56,6 +56,58 @@
 			
 			<div class="panel panel-info">
 				<div class="panel-heading">
+					<h3 class="panel-title">1.7.10-1.1.0B2</h3>
+				</div>
+				<div class="panel-body">
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Features</h4>   
+							<p class="list-group-item-text">No new features.</p>                            
+						</a>
+					</div>				
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Bugfixes</h4>
+                            <p class="list-group-item-text">BGZ012 - Dye gun now has the correct name when crafted.</p>
+                            <p class="list-group-item-text">BGZ013 - Tanks save their NBT again.</p>
+						</a>
+					</div>                    
+				</div>
+			</div>             
+            
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">1.7.10-1.1.0B1</h3>
+				</div>
+				<div class="panel-body">
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Features</h4>
+                            <p class="list-group-item-text">Added json configuration of dyeable blocks.</p>
+                            <p class="list-group-item-text">Custom config file supported (dyetopia_custommaps.json).</p>
+                            <p class="list-group-item-text">Blacklist mods and blocks.</p>
+                            <p class="list-group-item-text">Added eraser to uncolor certain blocks (eg. stained glass -> glass, stained hardened clay -> hardended clay).</p>
+                            <p class="list-group-item-text">Added tabs on the machine guis to show energy, tanks and usage information. (thankyou CoFHLib!)</p>
+                            <p class="list-group-item-text">Added NEI support.</p>                                                     
+						</a>
+					</div>				
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Bugfixes</h4>
+                            <p class="list-group-item-text">BGZ005 - Fix right click of gui placing held block.</p>
+                            <p class="list-group-item-text">BGZ006 - Changed yellow dye fluid color so that it is picked up by XUtilities drums.</p>
+                            <p class="list-group-item-text">BGZ007 - Fix multiblock placement requiring shift clicking.</p>
+                            <p class="list-group-item-text">BGZ008 - Added NEI support.</p>
+                            <p class="list-group-item-text">BGZ010 - Fix hopper being placed on mixer causing stack overflow.</p>
+                            <p class="list-group-item-text">BGZ011 - Dye trees can no longer exceed the world height limits. ie. their top block must not exceed the last block placed limit.</p>
+                            <p class="list-group-item-text">XXXXXX - Process FMLModIdMappingEvent so that the world loaded ids are used correctly by the ComparableItemStack hashmaps.</p>
+						</a>
+					</div>
+				</div>
+			</div>            
+            
+			<div class="panel panel-info">
+				<div class="panel-heading">
 					<h3 class="panel-title">1.7.10-1.0.0B2</h3>
 				</div>
 				<div class="panel-body">

@@ -53,7 +53,28 @@
 		</div>
 		
 		<div class="container">
-			
+		
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">1.7.10-1.1.0B3</h3>
+				</div>
+				<div class="panel-body">
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Features</h4>   
+							<p class="list-group-item-text">Shift-click in/out of machine.</p>                            
+						</a>
+					</div>				
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Bugfixes</h4>
+                            <p class="list-group-item-text">BGZ009 - Add dependency information to mcmod.info to catch missing CoFHLib.</p>
+                            <p class="list-group-item-text">XXXXXX - Fix phantom block placement when right clicking multiblock, with block in hand.</p>
+						</a>
+					</div>                    
+				</div>
+			</div>  		
+		
 			<div class="panel panel-info">
 				<div class="panel-heading">
 					<h3 class="panel-title">1.7.10-1.1.0B2</h3>

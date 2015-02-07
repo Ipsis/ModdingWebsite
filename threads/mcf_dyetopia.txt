@@ -3,17 +3,15 @@
 [b][b]What Is It???[/b][/b]
 I hate finding and combining dyes, so this is my answer.
 Squeeze all those flowers into liquid dyes and store them for future use.
-Then you can fill up your dye gun and start painting world blocks.
-Eg. Have a wall made of one color of wool or stained clay? Just get the dye gun out and start dying the wool/clay.
-
-So the basic steps are:
-* Build yourself a squeezer and mixer to turn all your flowers and dye drops into pure dye
-* Use the pure dye to
-** Stamp out new dyes
-** Mass produce painted blocks
-** Fill up your dye gun and start painting.
-
 You can squeeze anything that can be shapeless crafted into a dye.
+
+Then you can fill up your dye gun and start painting world blocks.
+    eg. wool, carpet, stained clay and supported modded blocks
+
+Use the painter to feed in colored blocks and recolor them in bulk.
+
+Use the dye gun to recolor blocks on-the-fly 
+    Think of a "Wand Of Equal Trade" from Thaumcraft, but with color.
 
 You can paint both vanilla and modded blocks.
 Modded blocks can be configured via a json file.

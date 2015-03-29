@@ -1,0 +1,195 @@
+[img]http://media-elerium.cursecdn.com/attachments/14/104/builders-guides.png[/img]
+[img]http://media-elerium.cursecdn.com/attachments/14/76/bgscreenshot.png[/img]
+
+[b][b]What Have You Created????[/b][/b]
+I am really bad at counting on Minecraft and often end up with rooms that are the wrong
+dimensions, walls that do not line up and various other irritating problems. Sometimes all I wanted was 
+some help to show me the center blocks or a line on the screen to show me I was still aligned.
+
+So along came Builder's Guides, inspired partly by OpenBlocks Builders Guide block. Granted
+mine is IN NO WAY as fancy as theirs.
+
+So this mod provides you with a collection of cheap marker blocks, that will help you in your
+building endeavours.
+
+Of course if you do not want to see the guide lines on the screen, go to the config file and disable
+the client rendering.
+
+And no, I am not proud of the textures!
+
+[b][b]Download[/b][/b]
+http://minecraft.curseforge.com/mc-mods/222961-builders-guides/files
+[mod="1.7.10"]222961-builders-guides[/mod]
+
+[b][b]Spotlight[/b][/b]
+Spotlight By BioMasterZap
+https://www.youtube.com/watch?v=jvPDUWYEhEU
+
+[b][b]Changelog[/b][/b]
+[spoiler]
+
+1.7.10-1.0.2
+
+* Remove the ghost block marker. Forgot to put all that work on its own Git branch!
+
+1.7.10-1.0.1 (Never released)
+
+* zh_CN.lang by ViKaleidoscope
+* Update to latest recommended Forge 10.13.2.1291
+
+Fixes
+* BGZ004 - Openeye: Chunkmarker causing NPE
+
+1.7.10-1.0.0
+
+* Actual release of V1.0.0
+** This means that, as per tradition, V1.0.1 will follow quickly
+* Update to latest recommended Forge 10.13.2.1230
+* com.ipsis.buildersguides -> ipsis.buildersguides
+* Toned down the textures a bit
+
+1.7.10-1.0.0B4
+
+Fixes
+* BGZ003 - Chunk marker was based off the players position not the marker block.
+
+1.7.10-1.0.0B3
+
+* Added the center marker than finds the centers between walls, rather than the marker and the target block.
+* Added a toolbox to carry the markers. Doesn't hold general items.
+
+Fixes
+* BGZ001 - Fix the Multi-Range Marker display name
+* BGZ002 - Breaking blocks by hand now drop the block
+
+1.7.10-1.0.0B2
+
+* Fix the modid and associated package, mod name.
+* Update to latest forge 10.13.0.1189
+* Add configuration file - only has one setting just now and that is to disable the guide lines rendering.
+
+1.7.10-1.0.0B1
+
+* Initial release
+
+[/spoiler]
+[p]
+[b][b]Info[/b][/b][/p]
+[spoiler][b]General[/b]
+
+Right click a block to change the guide line color.
+Use the Allen Key for other block functionality
+
+[b]Items[/b]
+[spoiler]The Basic Marker
+[spoiler][img]http://i.imgur.com/hJWb4Jb.png?1[/img]
+This is the item that all other marks are built from.[/spoiler]
+
+The Allen Key
+[spoiler][img]http://i.imgur.com/l2XniqG.png?1[/img]
+Because we need yet another wrench.
+This lets you rescan for targets and change the mode of certain markers.[/spoiler]
+
+The ToolBox
+[spoiler][img]http://i.imgur.com/6rDNctJ.png?1[/img]
+A handy toolbox to carry your markers, targets and allen key in.
+No, you cannot use it to carry anything else.[/spoiler]
+
+Target
+[spoiler][img]http://i.imgur.com/NvMYsR9.png?1[/img] 
+Some of the markers look for any block and some look for target blocks.
+This would be a target block.[/spoiler]
+[/spoiler]
+
+[b]Blocks[/b]
+[spoiler]Axis Marker
+[spoiler][img]http://i.imgur.com/q11Ww3O.png?1[/img]
+Displays axes in all 6 directions for a distance of 64 blocks.
+Shift right-click to cycle through the different axes.[/spoiler]
+
+Chunk Marker
+[spoiler][img]http://i.imgur.com/Ol9YNqd.png?1[/img]
+Shows the outlink of the chunk that the marker has been placed in.
+Highlights the all important 4 center blocks.[/spoiler]
+
+Coordinate Marker
+[spoiler][img]http://i.imgur.com/5L0crPJ.png?1[/img]
+Displays the coordinates of the block above the block.
+Not very useful, but I was sick of pressing F3.[/spoiler]
+
+Sky Marker
+[spoiler][img]http://i.imgur.com/k4Tx68m.png?1[/img]
+Displays a guide line from the marker to world height.[/spoiler]
+
+Dire Marker
+[spoiler][img]http://i.imgur.com/Yhlo6bT.png?1[/img]
+Shows the outline of a DireWolf20 9x9.
+The block can be rotated to move the doorway round.[/spoiler]
+
+Laser Marker
+[spoiler][img]http://i.imgur.com/Goa7Inw.png?1[/img]
+Displays a guide line for 64 blocks in the direction that the block is facing.
+Can be rotated.[/spoiler]
+
+Range Marker
+[spoiler][img]http://i.imgur.com/OpgPisg.png?1[/img] 
+Displays a guide line to the nearest block in the direction that the block is facing.
+Displays the number of blocks between the marker and the nearest block.
+Will highlight the center block if it exists.
+Can be rotated.
+Shift right-click with the Allen Key to search for new targets.[/spoiler]
+
+Multi-range Marker
+[spoiler][img]http://i.imgur.com/3fR7Rtg.png?1[/img] 
+Displays a guide line in each of the 6 directions to the nearest block.
+Displays the number of blocks between the marker and the nearest block.
+Will highlight all center blocks that exist.
+Shift right-click with the Allen Key to search for new targets.[/spoiler]
+
+Target/Multi-target Marker
+[spoiler][img]http://i.imgur.com/uMTqyLk.png?1[/img]
+[img]http://i.imgur.com/LBSeDsZ.png?1[/img]
+Same as the Range and Multi-range markers, expect it looks for target blocks.
+Shift right-click with the Allen Key to search for new targets.[/spoiler]
+
+Advanced Marker
+[spoiler][img]http://i.imgur.com/dN09xkx.png?1[/img]
+Use the target blocks to define a horizontal plane, vertical plane or cuboid.
+Shift right-click to cycle through the different modes.
+Shift right-click with the Allen Key to search for new targets.[/spoiler]
+
+Center Marker
+[spoiler][img]http://i.imgur.com/DbzPVfi.png?1[/img]
+Shows the center points in all 6 directions.
+The centers are defined as the between the walls rather than between the marker and the wall.[/spoiler]
+[/spoiler]
+[/spoiler]
+[p]
+[b][b]ScreenShots[/b][/b][/p]
+[spoiler][img]http://media-elerium.cursecdn.com/attachments/14/114/rangemarkerscreen.png[/img] 
+[img]http://media-elerium.cursecdn.com/attachments/14/112/advancedmarkerscreen.png[/img] 
+[img]http://media-elerium.cursecdn.com/attachments/14/113/diremarkerscreen.png[/img] 
+[img]http://media-elerium.cursecdn.com/attachments/14/115/multirangemakerscreen.png[/img] 
+[img]http://media-elerium.cursecdn.com/attachments/14/117/lasermarkerscreen.png[/img][/spoiler]
+[p]
+[b][b]To Do[/b][/b]
+* Present the config options via the in-game "Mod Options"
+* Pretty up the rendering a bit
+* Possible new block ideas
+* Make the chunk marker indicate slime chunk
+
+[b][b]Licensing And Modpacks[/b][/b]
+* This mod is released under LGPLv3.
+* Feel free to add this to a mod pack.
+** You do not have to ask.
+** A message in the thread would be nice just to give me a warm feeling. (But not needed)
+
+[b][b]Credits[/b][/b]
+* All the people with Open Source code that I can poke about in :)
+* Vswe for his modding tutorial series, that basically got me started.
+
+[b][b]Disclaimer[/b][/b]
+* This is my first ever released mod.
+* Testing has been limited to using it with the latest FTB DireWorlf20 pack in single player.
+* I still have a lot of learning to do, so I may not have done everything the correct way in the code.
+* If this mod already exists or the name if already taken, then I apologise. Not intentional.[/p]
